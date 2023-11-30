@@ -832,6 +832,20 @@ supported on all {{Window}} objects and <code><{body}></code> elements as attrib
   </tbody>
 </table>
 
+<h3 id="windoworientation-interface">
+  <a attribute lt="orientation"><code>window.browser</code></a> API
+</h3>
+
+This section documents the window.browser API, exposed for user-agent defined interactions with
+the WebExtensions API.
+
+<pre class="idl">
+partial interface Window {
+    readonly attribute short browser;
+};
+</pre>
+
+
 <h2 id="ua-string-section">The User-Agent String</h2>
 
 The <code>User-Agent</code> header field syntax is formally defined by [[!HTTP-SEMANTICS]] and
